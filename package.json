@@ -6,8 +6,8 @@
     "dev": "rollup -c -w",
     "start": "sirv public",
     "format": "npx prettier --write \"{,!(node_modules|public)/**/}*.{js,svelte}\"",
-    "build-css:develop": "tailwindcss build index.css -o public/main.css",
-    "build-css:production": "cross-env NODE_ENV=production tailwindcss build index.css -o public/main.css"
+    "build-css:develop": "tailwindcss build index.css -o public/css/main.css",
+    "build-css:production": "cross-env NODE_ENV=production tailwindcss build index.css -o public/css/main.css"
   },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^14.0.0",

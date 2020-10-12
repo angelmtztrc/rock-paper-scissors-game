@@ -11,6 +11,18 @@ module.exports = {
         'score': '#2a46c0',
         'gray-outline': '#606e85'
       },
+      width: {
+        '28': '7rem',
+        '36': '9rem'
+      },
+      height: {
+        '28': '7rem',
+        '36': '9rem'
+      },
+      boxShadow: {
+        'inner-t': 'inset 0 8px rgba(0, 0, 0, 0.199)',
+        'inner-b': 'inset 0 -8px rgba(0, 0, 0, 0.199)'
+      },
       gradientColorStops: theme => ({
         'scissors-primary': '#ec9e0e',
         'scissors-secondary': '#eca922',
