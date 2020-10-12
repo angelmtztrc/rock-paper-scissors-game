@@ -6,6 +6,11 @@ module.exports = {
   purge: ['src/*.svelte'],
   theme: {
     extend: {
+      colors: {
+        'dark': '#3b4363',
+        'score': '#2a46c0',
+        'gray-outline': '#606e85'
+      },
       gradientColorStops: theme => ({
         'scissors-primary': '#ec9e0e',
         'scissors-secondary': '#eca922',
@@ -19,9 +24,6 @@ module.exports = {
         'cyan-secondary': '#52bed1',
         'radial-primary': '#1f3756',
         'radial-secondary': '#141539',
-        'dark': '#3b4363',
-        'score': '#2a46c0',
-        'gray-outline': '#606e85'
       })
     }
   },
