@@ -1,10 +1,69 @@
 <script>
   let score = 0;
-  let selectedItem = 'paper';
-  let enemyItem = 'rock';
+  let selectedItem = '';
+  let enemyItem = '';
+  let matchStatus = '';
+
+  const generateEnemyPick = () => {
+    const enemyPick = Math.floor(Math.random() * (3 - 1 + 1)) + 1;
+    switch (enemyPick) {
+      case 1:
+        enemyItem = 'paper';
+        break;
+      case 2:
+        enemyItem = 'scissors';
+        break;
+      case 3:
+        enemyItem = 'rock';
+        break;
+      default:
+        break;
+    }
+  }
+
+  const generateMatch = async () => {
+    await generateEnemyPick();
+    if(selectedItem === 'paper'){
+      if(enemyItem === 'paper'){
+        matchStatus = 'Draw'
+      } else if(enemyItem === 'scissors'){
+        score >= 1 ? score-- : null;
+        matchStatus = 'You Lose'
+      } else {
+        score++;
+        matchStatus = 'You Win'
+      }
+    } else if(selectedItem === 'scissors') {
+      if(enemyItem === 'paper'){
+        score++;
+        matchStatus = 'You Win'
+      } else if(enemyItem === 'scissors'){
+        matchStatus = 'Draw'
+      } else {
+        score >= 1 ? score-- : null;
+        matchStatus = 'You Lose'
+      }
+    } else {
+      if(enemyItem === 'paper'){
+        score >= 1 ? score-- : null;
+        matchStatus = 'You Lose'
+      } else if(enemyItem === 'scissors'){
+        score++;
+        matchStatus = 'You Win'
+      } else {
+        matchStatus = 'Draw'
+      }
+    }
+  }
 
   const handleSelect = item => {
     selectedItem = item;
+    generateMatch();
+  }
+
+  const handleReset = () => {
+    selectedItem = '';
+    enemyItem = '';
   }
 
 </script>
@@ -51,8 +110,8 @@
         </div>
       </div>
       <div class="flex flex-col justify-center items-center">
-        <h1 class="mb-2 text-4xl text-white font-bold uppercase">You Lose</h1>
-        <button class="px-10 py-2 bg-white rounded-lg text-sm text-red-600 uppercase">Play Again</button>
+        <h1 class="mb-2 text-4xl text-white font-bold uppercase">{matchStatus}</h1>
+        <button on:click={handleReset} class="px-10 py-2 bg-white rounded-lg text-sm text-red-600 uppercase">Play Again</button>
       </div>
       <div>
         <p class="mb-10 text-lg text-white text-center uppercase">The House Picked</p>
