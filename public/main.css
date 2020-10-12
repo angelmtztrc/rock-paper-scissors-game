@@ -4003,6 +4003,11 @@ video {
   --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(112, 36, 89, 0));
 }
 
+.from-scissors{
+  --gradient-from-color: #ec9e0e;
+  --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(236, 158, 14, 0));
+}
+
 .via-transparent{
   --gradient-via-color: transparent;
   --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(0, 0, 0, 0));
@@ -4473,6 +4478,11 @@ video {
   --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(112, 36, 89, 0));
 }
 
+.via-scissors{
+  --gradient-via-color: #ec9e0e;
+  --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(236, 158, 14, 0));
+}
+
 .to-transparent{
   --gradient-to-color: transparent;
 }
@@ -4847,6 +4857,10 @@ video {
 
 .to-pink-900{
   --gradient-to-color: #702459;
+}
+
+.to-scissors{
+  --gradient-to-color: #ec9e0e;
 }
 
 .hover\:from-transparent:hover{
@@ -5319,6 +5333,11 @@ video {
   --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(112, 36, 89, 0));
 }
 
+.hover\:from-scissors:hover{
+  --gradient-from-color: #ec9e0e;
+  --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(236, 158, 14, 0));
+}
+
 .hover\:via-transparent:hover{
   --gradient-via-color: transparent;
   --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(0, 0, 0, 0));
@@ -5789,6 +5808,11 @@ video {
   --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(112, 36, 89, 0));
 }
 
+.hover\:via-scissors:hover{
+  --gradient-via-color: #ec9e0e;
+  --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(236, 158, 14, 0));
+}
+
 .hover\:to-transparent:hover{
   --gradient-to-color: transparent;
 }
@@ -6163,6 +6187,10 @@ video {
 
 .hover\:to-pink-900:hover{
   --gradient-to-color: #702459;
+}
+
+.hover\:to-scissors:hover{
+  --gradient-to-color: #ec9e0e;
 }
 
 .focus\:from-transparent:focus{
@@ -6635,6 +6663,11 @@ video {
   --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(112, 36, 89, 0));
 }
 
+.focus\:from-scissors:focus{
+  --gradient-from-color: #ec9e0e;
+  --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(236, 158, 14, 0));
+}
+
 .focus\:via-transparent:focus{
   --gradient-via-color: transparent;
   --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(0, 0, 0, 0));
@@ -7105,6 +7138,11 @@ video {
   --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(112, 36, 89, 0));
 }
 
+.focus\:via-scissors:focus{
+  --gradient-via-color: #ec9e0e;
+  --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(236, 158, 14, 0));
+}
+
 .focus\:to-transparent:focus{
   --gradient-to-color: transparent;
 }
@@ -7479,6 +7517,10 @@ video {
 
 .focus\:to-pink-900:focus{
   --gradient-to-color: #702459;
+}
+
+.focus\:to-scissors:focus{
+  --gradient-to-color: #ec9e0e;
 }
 
 .bg-opacity-0{
@@ -24447,6 +24489,11 @@ body {
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(112, 36, 89, 0));
   }
 
+  .sm\:from-scissors{
+    --gradient-from-color: #ec9e0e;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(236, 158, 14, 0));
+  }
+
   .sm\:via-transparent{
     --gradient-via-color: transparent;
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(0, 0, 0, 0));
@@ -24917,6 +24964,11 @@ body {
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(112, 36, 89, 0));
   }
 
+  .sm\:via-scissors{
+    --gradient-via-color: #ec9e0e;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(236, 158, 14, 0));
+  }
+
   .sm\:to-transparent{
     --gradient-to-color: transparent;
   }
@@ -25291,6 +25343,10 @@ body {
 
   .sm\:to-pink-900{
     --gradient-to-color: #702459;
+  }
+
+  .sm\:to-scissors{
+    --gradient-to-color: #ec9e0e;
   }
 
   .sm\:hover\:from-transparent:hover{
@@ -25763,6 +25819,11 @@ body {
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(112, 36, 89, 0));
   }
 
+  .sm\:hover\:from-scissors:hover{
+    --gradient-from-color: #ec9e0e;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(236, 158, 14, 0));
+  }
+
   .sm\:hover\:via-transparent:hover{
     --gradient-via-color: transparent;
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(0, 0, 0, 0));
@@ -26233,6 +26294,11 @@ body {
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(112, 36, 89, 0));
   }
 
+  .sm\:hover\:via-scissors:hover{
+    --gradient-via-color: #ec9e0e;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(236, 158, 14, 0));
+  }
+
   .sm\:hover\:to-transparent:hover{
     --gradient-to-color: transparent;
   }
@@ -26607,6 +26673,10 @@ body {
 
   .sm\:hover\:to-pink-900:hover{
     --gradient-to-color: #702459;
+  }
+
+  .sm\:hover\:to-scissors:hover{
+    --gradient-to-color: #ec9e0e;
   }
 
   .sm\:focus\:from-transparent:focus{
@@ -27079,6 +27149,11 @@ body {
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(112, 36, 89, 0));
   }
 
+  .sm\:focus\:from-scissors:focus{
+    --gradient-from-color: #ec9e0e;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(236, 158, 14, 0));
+  }
+
   .sm\:focus\:via-transparent:focus{
     --gradient-via-color: transparent;
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(0, 0, 0, 0));
@@ -27549,6 +27624,11 @@ body {
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(112, 36, 89, 0));
   }
 
+  .sm\:focus\:via-scissors:focus{
+    --gradient-via-color: #ec9e0e;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(236, 158, 14, 0));
+  }
+
   .sm\:focus\:to-transparent:focus{
     --gradient-to-color: transparent;
   }
@@ -27923,6 +28003,10 @@ body {
 
   .sm\:focus\:to-pink-900:focus{
     --gradient-to-color: #702459;
+  }
+
+  .sm\:focus\:to-scissors:focus{
+    --gradient-to-color: #ec9e0e;
   }
 
   .sm\:bg-opacity-0{
@@ -44822,6 +44906,11 @@ body {
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(112, 36, 89, 0));
   }
 
+  .md\:from-scissors{
+    --gradient-from-color: #ec9e0e;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(236, 158, 14, 0));
+  }
+
   .md\:via-transparent{
     --gradient-via-color: transparent;
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(0, 0, 0, 0));
@@ -45292,6 +45381,11 @@ body {
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(112, 36, 89, 0));
   }
 
+  .md\:via-scissors{
+    --gradient-via-color: #ec9e0e;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(236, 158, 14, 0));
+  }
+
   .md\:to-transparent{
     --gradient-to-color: transparent;
   }
@@ -45666,6 +45760,10 @@ body {
 
   .md\:to-pink-900{
     --gradient-to-color: #702459;
+  }
+
+  .md\:to-scissors{
+    --gradient-to-color: #ec9e0e;
   }
 
   .md\:hover\:from-transparent:hover{
@@ -46138,6 +46236,11 @@ body {
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(112, 36, 89, 0));
   }
 
+  .md\:hover\:from-scissors:hover{
+    --gradient-from-color: #ec9e0e;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(236, 158, 14, 0));
+  }
+
   .md\:hover\:via-transparent:hover{
     --gradient-via-color: transparent;
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(0, 0, 0, 0));
@@ -46608,6 +46711,11 @@ body {
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(112, 36, 89, 0));
   }
 
+  .md\:hover\:via-scissors:hover{
+    --gradient-via-color: #ec9e0e;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(236, 158, 14, 0));
+  }
+
   .md\:hover\:to-transparent:hover{
     --gradient-to-color: transparent;
   }
@@ -46982,6 +47090,10 @@ body {
 
   .md\:hover\:to-pink-900:hover{
     --gradient-to-color: #702459;
+  }
+
+  .md\:hover\:to-scissors:hover{
+    --gradient-to-color: #ec9e0e;
   }
 
   .md\:focus\:from-transparent:focus{
@@ -47454,6 +47566,11 @@ body {
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(112, 36, 89, 0));
   }
 
+  .md\:focus\:from-scissors:focus{
+    --gradient-from-color: #ec9e0e;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(236, 158, 14, 0));
+  }
+
   .md\:focus\:via-transparent:focus{
     --gradient-via-color: transparent;
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(0, 0, 0, 0));
@@ -47924,6 +48041,11 @@ body {
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(112, 36, 89, 0));
   }
 
+  .md\:focus\:via-scissors:focus{
+    --gradient-via-color: #ec9e0e;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(236, 158, 14, 0));
+  }
+
   .md\:focus\:to-transparent:focus{
     --gradient-to-color: transparent;
   }
@@ -48298,6 +48420,10 @@ body {
 
   .md\:focus\:to-pink-900:focus{
     --gradient-to-color: #702459;
+  }
+
+  .md\:focus\:to-scissors:focus{
+    --gradient-to-color: #ec9e0e;
   }
 
   .md\:bg-opacity-0{
@@ -65197,6 +65323,11 @@ body {
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(112, 36, 89, 0));
   }
 
+  .lg\:from-scissors{
+    --gradient-from-color: #ec9e0e;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(236, 158, 14, 0));
+  }
+
   .lg\:via-transparent{
     --gradient-via-color: transparent;
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(0, 0, 0, 0));
@@ -65667,6 +65798,11 @@ body {
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(112, 36, 89, 0));
   }
 
+  .lg\:via-scissors{
+    --gradient-via-color: #ec9e0e;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(236, 158, 14, 0));
+  }
+
   .lg\:to-transparent{
     --gradient-to-color: transparent;
   }
@@ -66041,6 +66177,10 @@ body {
 
   .lg\:to-pink-900{
     --gradient-to-color: #702459;
+  }
+
+  .lg\:to-scissors{
+    --gradient-to-color: #ec9e0e;
   }
 
   .lg\:hover\:from-transparent:hover{
@@ -66513,6 +66653,11 @@ body {
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(112, 36, 89, 0));
   }
 
+  .lg\:hover\:from-scissors:hover{
+    --gradient-from-color: #ec9e0e;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(236, 158, 14, 0));
+  }
+
   .lg\:hover\:via-transparent:hover{
     --gradient-via-color: transparent;
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(0, 0, 0, 0));
@@ -66983,6 +67128,11 @@ body {
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(112, 36, 89, 0));
   }
 
+  .lg\:hover\:via-scissors:hover{
+    --gradient-via-color: #ec9e0e;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(236, 158, 14, 0));
+  }
+
   .lg\:hover\:to-transparent:hover{
     --gradient-to-color: transparent;
   }
@@ -67357,6 +67507,10 @@ body {
 
   .lg\:hover\:to-pink-900:hover{
     --gradient-to-color: #702459;
+  }
+
+  .lg\:hover\:to-scissors:hover{
+    --gradient-to-color: #ec9e0e;
   }
 
   .lg\:focus\:from-transparent:focus{
@@ -67829,6 +67983,11 @@ body {
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(112, 36, 89, 0));
   }
 
+  .lg\:focus\:from-scissors:focus{
+    --gradient-from-color: #ec9e0e;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(236, 158, 14, 0));
+  }
+
   .lg\:focus\:via-transparent:focus{
     --gradient-via-color: transparent;
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(0, 0, 0, 0));
@@ -68299,6 +68458,11 @@ body {
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(112, 36, 89, 0));
   }
 
+  .lg\:focus\:via-scissors:focus{
+    --gradient-via-color: #ec9e0e;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(236, 158, 14, 0));
+  }
+
   .lg\:focus\:to-transparent:focus{
     --gradient-to-color: transparent;
   }
@@ -68673,6 +68837,10 @@ body {
 
   .lg\:focus\:to-pink-900:focus{
     --gradient-to-color: #702459;
+  }
+
+  .lg\:focus\:to-scissors:focus{
+    --gradient-to-color: #ec9e0e;
   }
 
   .lg\:bg-opacity-0{
@@ -85572,6 +85740,11 @@ body {
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(112, 36, 89, 0));
   }
 
+  .xl\:from-scissors{
+    --gradient-from-color: #ec9e0e;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(236, 158, 14, 0));
+  }
+
   .xl\:via-transparent{
     --gradient-via-color: transparent;
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(0, 0, 0, 0));
@@ -86042,6 +86215,11 @@ body {
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(112, 36, 89, 0));
   }
 
+  .xl\:via-scissors{
+    --gradient-via-color: #ec9e0e;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(236, 158, 14, 0));
+  }
+
   .xl\:to-transparent{
     --gradient-to-color: transparent;
   }
@@ -86416,6 +86594,10 @@ body {
 
   .xl\:to-pink-900{
     --gradient-to-color: #702459;
+  }
+
+  .xl\:to-scissors{
+    --gradient-to-color: #ec9e0e;
   }
 
   .xl\:hover\:from-transparent:hover{
@@ -86888,6 +87070,11 @@ body {
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(112, 36, 89, 0));
   }
 
+  .xl\:hover\:from-scissors:hover{
+    --gradient-from-color: #ec9e0e;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(236, 158, 14, 0));
+  }
+
   .xl\:hover\:via-transparent:hover{
     --gradient-via-color: transparent;
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(0, 0, 0, 0));
@@ -87358,6 +87545,11 @@ body {
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(112, 36, 89, 0));
   }
 
+  .xl\:hover\:via-scissors:hover{
+    --gradient-via-color: #ec9e0e;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(236, 158, 14, 0));
+  }
+
   .xl\:hover\:to-transparent:hover{
     --gradient-to-color: transparent;
   }
@@ -87732,6 +87924,10 @@ body {
 
   .xl\:hover\:to-pink-900:hover{
     --gradient-to-color: #702459;
+  }
+
+  .xl\:hover\:to-scissors:hover{
+    --gradient-to-color: #ec9e0e;
   }
 
   .xl\:focus\:from-transparent:focus{
@@ -88204,6 +88400,11 @@ body {
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(112, 36, 89, 0));
   }
 
+  .xl\:focus\:from-scissors:focus{
+    --gradient-from-color: #ec9e0e;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(236, 158, 14, 0));
+  }
+
   .xl\:focus\:via-transparent:focus{
     --gradient-via-color: transparent;
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(0, 0, 0, 0));
@@ -88674,6 +88875,11 @@ body {
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(112, 36, 89, 0));
   }
 
+  .xl\:focus\:via-scissors:focus{
+    --gradient-via-color: #ec9e0e;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(236, 158, 14, 0));
+  }
+
   .xl\:focus\:to-transparent:focus{
     --gradient-to-color: transparent;
   }
@@ -89048,6 +89254,10 @@ body {
 
   .xl\:focus\:to-pink-900:focus{
     --gradient-to-color: #702459;
+  }
+
+  .xl\:focus\:to-scissors:focus{
+    --gradient-to-color: #ec9e0e;
   }
 
   .xl\:bg-opacity-0{
