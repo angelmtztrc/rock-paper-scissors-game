@@ -45,7 +45,7 @@
         d="M16.97 0l2.122 2.121-7.425 7.425 7.425 7.425-2.121 2.12-7.425-7.424-7.425 7.425L0 16.97l7.425-7.425L0 2.121 2.121 0l7.425 7.425L16.971 0z"
         opacity=".25" /></svg>
   </div>
-  <main class="my-auto lg:mt-10">
+  <section class="my-auto lg:mt-10">
     <img src="images/image-rules.svg" alt="rules" class="w-full" />
-  </main>
+  </section>
 </div>

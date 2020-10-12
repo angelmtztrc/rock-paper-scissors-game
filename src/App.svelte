@@ -73,11 +73,11 @@
   };
 </script>
 
-<main class="relative bg-gradient-to-b from-radial-primary to-radial-secondary">
+<div class="relative bg-gradient-to-b from-radial-primary to-radial-secondary">
   {#if rules}
     <Modal on:close={() => (rules = false)} />
   {/if}
-  <div class="min-h-screen py-10  container mx-auto flex flex-col">
+  <main class="min-h-screen py-10  container mx-auto flex flex-col">
     <Header {score} />
 
     {#if selectedItem === '' || selectedItem === null || selectedItem === undefined}
@@ -90,5 +90,5 @@
         on:click={() => (rules = true)}
         class="px-8 py-2 border-2 border-white rounded-lg text-white uppercase focus:outline-none">Rules</button>
     </div>
-  </div>
-</main>
+  </main>
+</div>
