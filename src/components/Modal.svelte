@@ -6,14 +6,14 @@
 
   let modal;
 
-  const previously_focused = typeof document !== 'undefined' && document.activeElement;
+  const previously_focused =
+    typeof document !== 'undefined' && document.activeElement;
 
-	if (previously_focused) {
-		onDestroy(() => {
-			previously_focused.focus();
-		});
-	}
-
+  if (previously_focused) {
+    onDestroy(() => {
+      previously_focused.focus();
+    });
+  }
 </script>
 
 <style>
@@ -35,7 +35,12 @@
   bind:this={modal}>
   <div class="flex justify-center lg:justify-between items-center">
     <h2 class="text-4xl text-dark font-bold uppercase">Rules</h2>
-    <svg on:click={close} class="hidden lg:block" xmlns="http://www.w3.org/2000/svg" width="20" height="20"><path
+    <svg
+      on:click={close}
+      class="hidden lg:block"
+      xmlns="http://www.w3.org/2000/svg"
+      width="20"
+      height="20"><path
         fill="#3B4262"
         fill-rule="evenodd"
         d="M16.97 0l2.122 2.121-7.425 7.425 7.425 7.425-2.121 2.12-7.425-7.424-7.425 7.425L0 16.97l7.425-7.425L0 2.121 2.121 0l7.425 7.425L16.971 0z"
@@ -45,10 +50,15 @@
     <img src="images/image-rules.svg" alt="rules" class="w-full" />
   </main>
   <div class="flex justify-center">
-    <svg on:click={close} class="block lg:hidden" xmlns="http://www.w3.org/2000/svg" width="20" height="20"><path
-      fill="#3B4262"
-      fill-rule="evenodd"
-      d="M16.97 0l2.122 2.121-7.425 7.425 7.425 7.425-2.121 2.12-7.425-7.424-7.425 7.425L0 16.97l7.425-7.425L0 2.121 2.121 0l7.425 7.425L16.971 0z"
-      opacity=".25" /></svg>
+    <svg
+      on:click={close}
+      class="block lg:hidden"
+      xmlns="http://www.w3.org/2000/svg"
+      width="20"
+      height="20"><path
+        fill="#3B4262"
+        fill-rule="evenodd"
+        d="M16.97 0l2.122 2.121-7.425 7.425 7.425 7.425-2.121 2.12-7.425-7.424-7.425 7.425L0 16.97l7.425-7.425L0 2.121 2.121 0l7.425 7.425L16.971 0z"
+        opacity=".25" /></svg>
   </div>
 </div>
