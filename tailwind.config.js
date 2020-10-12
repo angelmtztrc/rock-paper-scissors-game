@@ -21,7 +21,8 @@ module.exports = {
       },
       boxShadow: {
         'inner-t': 'inset 0 8px rgba(0, 0, 0, 0.199)',
-        'inner-b': 'inset 0 -8px rgba(0, 0, 0, 0.199)'
+        'inner-b': 'inset 0 -8px rgba(0, 0, 0, 0.199)',
+        'win': '0 0 0 40px hsl(217, 16%, 45%, 0.05), 0 0 0 70px hsl(217, 16%, 45%, 0.08), 0 0 0 100px hsl(217, 16%, 45%, 0.1)'
       },
       gradientColorStops: theme => ({
         'scissors-primary': '#ec9e0e',
