@@ -16,7 +16,7 @@
       </div>
     </div>
   </div>
-  <div class="order-3 lg:order-2 mx-auto lg:mx-0 flex flex-col justify-center items-center">
+  <div class="order-3 lg:order-2 mx-auto lg:mx-0 mt-5 lg:mt-0 flex flex-col justify-center items-center">
     <h1 class="mb-2 text-4xl text-white font-bold uppercase">{matchStatus}</h1>
     <button
       on:click={handleReset}
