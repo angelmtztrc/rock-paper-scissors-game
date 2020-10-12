@@ -4,7 +4,9 @@
   "scripts": {
     "build": "rollup -c",
     "dev": "rollup -c -w",
-    "start": "sirv public"
+    "start": "sirv public",
+    "build-css:develop": "tailwindcss build index.css -o public/main.css",
+    "build-css:production": "cross-env NODE_ENV=production tailwindcss build index.css -o public/main.css"
   },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^14.0.0",
@@ -16,6 +18,8 @@
     "svelte": "^3.0.0"
   },
   "dependencies": {
-    "sirv-cli": "^1.0.0"
+    "cross-env": "^7.0.2",
+    "sirv-cli": "^1.0.0",
+    "tailwindcss": "^1.8.13"
   }
 }
