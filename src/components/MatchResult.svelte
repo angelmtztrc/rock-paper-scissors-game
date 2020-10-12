@@ -5,7 +5,8 @@
   export let handleReset;
 </script>
 
-<main class="w-full max-w-xs lg:max-w-2xl my-auto mx-auto flex justify-between flex-wrap lg:flex-no-wrap">
+<main
+  class="w-full max-w-xs md:max-w-sm lg:max-w-2xl my-auto mx-auto flex justify-between flex-wrap lg:flex-no-wrap">
   <div class="order-1">
     <p class="mb-10 text-lg text-white text-center uppercase">You Picked</p>
     <div
@@ -16,7 +17,8 @@
       </div>
     </div>
   </div>
-  <div class="order-3 lg:order-2 mx-auto lg:mx-0 mt-5 lg:mt-0 flex flex-col justify-center items-center">
+  <div
+    class="order-3 lg:order-2 mx-auto lg:mx-0 mt-5 lg:mt-0 flex flex-col justify-center items-center">
     <h1 class="mb-2 text-4xl text-white font-bold uppercase">{matchStatus}</h1>
     <button
       on:click={handleReset}

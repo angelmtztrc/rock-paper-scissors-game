@@ -11,6 +11,7 @@
   </h1>
   <div class="bg-white px-8 lg:px-12 py-4 text-center rounded-lg">
     <p class="text-score uppercase leading-none">Score</p>
-    <span class="text-5xl lg:text-6xl text-dark font-bold leading-none">{score}</span>
+    <span
+      class="text-5xl lg:text-6xl text-dark font-bold leading-none">{score}</span>
   </div>
 </header>
