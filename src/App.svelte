@@ -23,67 +23,61 @@
       default:
         break;
     }
-  }
+  };
 
   const generateMatch = async () => {
     await generateEnemyPick();
-    if(selectedItem === 'paper'){
-      if(enemyItem === 'paper'){
-        matchStatus = 'Draw'
-      } else if(enemyItem === 'scissors'){
+    if (selectedItem === 'paper') {
+      if (enemyItem === 'paper') {
+        matchStatus = 'Draw';
+      } else if (enemyItem === 'scissors') {
         score >= 1 ? score-- : null;
-        matchStatus = 'You Lose'
+        matchStatus = 'You Lose';
       } else {
         score++;
-        matchStatus = 'You Win'
+        matchStatus = 'You Win';
       }
-    } else if(selectedItem === 'scissors') {
-      if(enemyItem === 'paper'){
+    } else if (selectedItem === 'scissors') {
+      if (enemyItem === 'paper') {
         score++;
-        matchStatus = 'You Win'
-      } else if(enemyItem === 'scissors'){
-        matchStatus = 'Draw'
+        matchStatus = 'You Win';
+      } else if (enemyItem === 'scissors') {
+        matchStatus = 'Draw';
       } else {
         score >= 1 ? score-- : null;
-        matchStatus = 'You Lose'
+        matchStatus = 'You Lose';
       }
     } else {
-      if(enemyItem === 'paper'){
+      if (enemyItem === 'paper') {
         score >= 1 ? score-- : null;
-        matchStatus = 'You Lose'
-      } else if(enemyItem === 'scissors'){
+        matchStatus = 'You Lose';
+      } else if (enemyItem === 'scissors') {
         score++;
-        matchStatus = 'You Win'
+        matchStatus = 'You Win';
       } else {
-        matchStatus = 'Draw'
+        matchStatus = 'Draw';
       }
     }
-  }
+  };
 
   const handleSelect = item => {
     selectedItem = item;
     generateMatch();
-  }
+  };
 
   const handleReset = () => {
     selectedItem = '';
     enemyItem = '';
-  }
-
+  };
 </script>
 
 <main class="bg-gradient-to-b from-radial-primary to-radial-secondary">
   <div class="min-h-screen py-10  container mx-auto flex flex-col">
-    <Header score={score} />
+    <Header {score} />
     {#if selectedItem === '' || selectedItem === null || selectedItem === undefined}
-      <SelectItem handleSelect={handleSelect} />
+      <SelectItem {handleSelect} />
     {:else}
-      <MatchResult 
-        selectedItem={selectedItem}
-        enemyItem={enemyItem}
-        matchStatus={matchStatus}
-        handleReset={handleReset}
-      />
+      <MatchResult {selectedItem} {enemyItem} {matchStatus} {handleReset} />
     {/if}
   </div>
 </main>

@@ -8,21 +8,30 @@
 <main class="w-full max-w-2xl my-auto mx-auto flex justify-between">
   <div>
     <p class="mb-10 text-lg text-white text-center uppercase">You Picked</p>
-    <div class="h-48 w-48 flex justify-center items-center rounded-full bg-gradient-to-b from-{selectedItem}-primary to-{selectedItem}-secondary { matchStatus === 'You Win' ? 'shadow-win' : 'shadow-inner-b' }">
-      <div class="h-36 w-36 bg-white flex justify-center items-center rounded-full shadow-inner-t hover:shadow-none transition-shadow ease-in-out duration-300 cursor-pointer">
-        <img src="./images/icon-{selectedItem}.svg" alt="{selectedItem}" />
+    <div
+      class="h-48 w-48 flex justify-center items-center rounded-full bg-gradient-to-b from-{selectedItem}-primary to-{selectedItem}-secondary {matchStatus === 'You Win' ? 'shadow-win' : 'shadow-inner-b'}">
+      <div
+        class="h-36 w-36 bg-white flex justify-center items-center rounded-full shadow-inner-t hover:shadow-none transition-shadow ease-in-out duration-300 cursor-pointer">
+        <img src="./images/icon-{selectedItem}.svg" alt={selectedItem} />
       </div>
     </div>
   </div>
   <div class="flex flex-col justify-center items-center">
     <h1 class="mb-2 text-4xl text-white font-bold uppercase">{matchStatus}</h1>
-    <button on:click={handleReset} class="px-10 py-2 bg-white rounded-lg text-sm text-red-600 uppercase">Play Again</button>
+    <button
+      on:click={handleReset}
+      class="px-10 py-2 bg-white rounded-lg text-sm text-red-600 uppercase">Play
+      Again</button>
   </div>
   <div>
-    <p class="mb-10 text-lg text-white text-center uppercase">The House Picked</p>
-    <div class="h-48 w-48 flex justify-center items-center rounded-full bg-gradient-to-b from-{enemyItem}-primary to-{enemyItem}-secondary { matchStatus === 'You Lose' ? 'shadow-win' : 'shadow-inner-b' }">
-      <div class="h-36 w-36 bg-white flex justify-center items-center rounded-full shadow-inner-t hover:shadow-none transition-shadow ease-in-out duration-300 cursor-pointer">
-        <img src="./images/icon-{enemyItem}.svg" alt="{enemyItem}" />
+    <p class="mb-10 text-lg text-white text-center uppercase">
+      The House Picked
+    </p>
+    <div
+      class="h-48 w-48 flex justify-center items-center rounded-full bg-gradient-to-b from-{enemyItem}-primary to-{enemyItem}-secondary {matchStatus === 'You Lose' ? 'shadow-win' : 'shadow-inner-b'}">
+      <div
+        class="h-36 w-36 bg-white flex justify-center items-center rounded-full shadow-inner-t hover:shadow-none transition-shadow ease-in-out duration-300 cursor-pointer">
+        <img src="./images/icon-{enemyItem}.svg" alt={enemyItem} />
       </div>
     </div>
   </div>

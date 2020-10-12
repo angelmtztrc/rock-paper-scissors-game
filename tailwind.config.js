@@ -7,22 +7,23 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'dark': '#3b4363',
-        'score': '#2a46c0',
+        dark: '#3b4363',
+        score: '#2a46c0',
         'gray-outline': '#606e85'
       },
       width: {
-        '28': '7rem',
-        '36': '9rem'
+        28: '7rem',
+        36: '9rem'
       },
       height: {
-        '28': '7rem',
-        '36': '9rem'
+        28: '7rem',
+        36: '9rem'
       },
       boxShadow: {
         'inner-t': 'inset 0 8px rgba(0, 0, 0, 0.199)',
         'inner-b': 'inset 0 -8px rgba(0, 0, 0, 0.199)',
-        'win': '0 0 0 40px hsl(217, 16%, 45%, 0.05), 0 0 0 70px hsl(217, 16%, 45%, 0.08), 0 0 0 100px hsl(217, 16%, 45%, 0.1)'
+        win:
+          '0 0 0 40px hsl(217, 16%, 45%, 0.05), 0 0 0 70px hsl(217, 16%, 45%, 0.08), 0 0 0 100px hsl(217, 16%, 45%, 0.1)'
       },
       gradientColorStops: theme => ({
         'scissors-primary': '#ec9e0e',
@@ -36,7 +37,7 @@ module.exports = {
         'cyan-primary': '#40b9ce',
         'cyan-secondary': '#52bed1',
         'radial-primary': '#1f3756',
-        'radial-secondary': '#141539',
+        'radial-secondary': '#141539'
       })
     }
   },

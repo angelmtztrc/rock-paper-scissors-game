@@ -2,7 +2,8 @@
   export let score;
 </script>
 
-<header class="px-6 py-4 xl:w-full xl:max-w-3xl xl:mx-auto flex justify-between items-center border-2 border-gray-outline rounded-lg">
+<header
+  class="px-6 py-4 xl:w-full xl:max-w-3xl xl:mx-auto flex justify-between items-center border-2 border-gray-outline rounded-lg">
   <h1 class="text-3xl text-white font-bold uppercase">
     <span class="block -mb-3">Rock</span>
     <span class="block -mb-3">Paper</span>
