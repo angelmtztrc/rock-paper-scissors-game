@@ -5,12 +5,15 @@
     "build": "rollup -c",
     "dev": "rollup -c -w",
     "start": "sirv public",
+    "format": "npx prettier --write \"{,!(node_modules|public)/**/}*.{js,svelte}\"",
     "build-css:develop": "tailwindcss build index.css -o public/main.css",
     "build-css:production": "cross-env NODE_ENV=production tailwindcss build index.css -o public/main.css"
   },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^14.0.0",
     "@rollup/plugin-node-resolve": "^8.0.0",
+    "prettier": "^2.1.2",
+    "prettier-plugin-svelte": "^1.4.0",
     "rollup": "^2.3.4",
     "rollup-plugin-livereload": "^2.0.0",
     "rollup-plugin-svelte": "^6.0.0",
