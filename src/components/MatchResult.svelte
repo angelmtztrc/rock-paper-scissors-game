@@ -5,7 +5,7 @@
   export let handleReset;
 </script>
 
-<main
+<section
   class="w-full max-w-xs md:max-w-sm lg:max-w-2xl my-auto mx-auto flex justify-between flex-wrap lg:flex-no-wrap">
   <div class="order-1">
     <p class="mb-10 text-lg text-white text-center uppercase">You Picked</p>
@@ -37,4 +37,4 @@
       </div>
     </div>
   </div>
-</main>
+</section>

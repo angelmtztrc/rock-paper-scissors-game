@@ -3,7 +3,7 @@
 </script>
 
 <style>
-  main#options {
+  section#options {
     background-image: url(/images/bg-triangle.svg);
     background-repeat: no-repeat;
     background-position: center;
@@ -11,7 +11,7 @@
   }
 </style>
 
-<main
+<section
   id="options"
   class="w-full max-w-xs lg:max-w-md my-auto mx-auto flex justify-between flex-wrap">
   <div
@@ -38,4 +38,4 @@
       <img src="./images/icon-rock.svg" alt="rock" />
     </div>
   </div>
-</main>
+</section>
